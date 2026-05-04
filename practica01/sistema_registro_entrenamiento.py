@@ -1,4 +1,4 @@
-# --- CLASE ---
+
 
 class MonitorEntrenamiento:
     def __init__(self, umbral_convergencia=0.01):
@@ -13,7 +13,7 @@ class MonitorEntrenamiento:
         print("> Registro exitoso.")
 
 
-# --- FUNCIÓN PRINCIPAL ---
+
 def main():
     monitor = MonitorEntrenamiento()
 
@@ -48,6 +48,6 @@ def main():
         print(f"Mejor resultado obtenido: {mejor}")
 
 
-# --- EJECUCIÓN ---
+
 if __name__ == "__main__":
     main()
