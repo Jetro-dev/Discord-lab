@@ -44,7 +44,7 @@ def main():
 
     lectura_sensor = leer_sensor()
 
-    coincidencias = comparar_patrones(patron_maestro, lectura_sensor)
+    coincidencias = comparar_patrones(patron_maestro, lectura_sensor) 
 
     similitud = calcular_similitud(coincidencias)
 
